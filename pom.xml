@@ -11,8 +11,8 @@
 	<groupId>be.pxl</groupId>
 	<artifactId>mousselsouper_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>mousselsouper_backend</name>
-	<description>mousselsouper_backend</description>
+	<name>mosselsouper_backend</name>
+	<description>mosselsouper_backend</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -32,9 +32,21 @@
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>com.squareup.okhttp3</groupId>
+			<artifactId>okhttp</artifactId>
+			<version>4.12.0</version>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
